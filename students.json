@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ronak",
+    "rollNo": 12,
+    "class": "B.Sc(H) CS",
+    "friends": [
+      "Roy",
+      "Ray",
+      "Maira"
+    ]
+  },
+  {
+    "name": "Palak",
+    "rollNo": 22,
+    "class": "B.Sc(H) Physic",
+    "friends": [
+      "Roy",
+      "Ronak",
+      "Joy"
+    ]
+  },
+  {
+    "name": "Shaurya",
+    "rollNo": 2,
+    "class": "B.Sc(H) Maths",
+    "friends": [
+      "Shaurya",
+      "Abhay",
+      "Mira"
+    ]
+  },
+  {
+    "name": "Rao",
+    "rollNo": 10,
+    "class": "B.Sc(H) Chem",
+    "friends": [
+      "Ray",
+      "Ronak",
+      "Palak"
+    ]
+  }
+]
