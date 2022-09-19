@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Jim Corbett National Park",
+    "state": "Uttrakhand",
+    "speciality": "Tigers"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "speciality": "Rhinos"
+  },
+  {
+    "name": "Jasola Bhatti Wildlife Sanctury",
+    "state": "Delhi",
+    "speciality": "Birds"
+  },
+  {
+    "name": "Gir National Park",
+    "state": "Gujrat",
+    "speciality": "Lions"
+  }
+]
