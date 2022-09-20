@@ -12,7 +12,7 @@ $(function() {
 		                xhrFields: {
                                 RequestHeader:{"X-MASTER-KEY":'$2b$10$H8bJy6qh5us/FSC6tmzDYuzTjmZoxF05JALdl3qLO7BOQNwjsmjPO',
 					       "X-ACCESS-KEY": '$2b$10$O0ujD4BIGHJaCimGjwvlu.kggtZZ4q..WP1oKFaXVcGWUAkAmq7eq' 
-                          } ,
+                          }} ,
 
 				complete:function(orders)
 				{
