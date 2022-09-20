@@ -14,7 +14,7 @@ $(function() {
 					alert('hi');
 					console.log(orders);
 					$.each(orders, function(i,orders){
-						consol.log(orders[i]);
+						console.log(orders[i]);
 				//$orders.append('<li>name : '+ orders[i].name + ', drink: '+ orders[i].drink + '</li>');
 					});
 				},
