@@ -9,13 +9,13 @@ $(function() {
 				url: 'orders.json',
 				type: 'GET',
 				dataType:'json',
-				timeout:2500,
 				complete:function(orders)
 				{
 					alert('hi');
 					console.log(orders);
 					$.each(orders, function(i,orders){
-						$orders.append('<li>name : '+ orders[i].name + ', drink: '+ orders[i].drink + '</li>');
+						consol.log(orders[i];
+				//$orders.append('<li>name : '+ orders[i].name + ', drink: '+ orders[i].drink + '</li>');
 					});
 				},
 
