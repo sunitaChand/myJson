@@ -26,8 +26,8 @@ $(function() {
 
 	$('#add-order').on('click', function(){
 			var newOrder={
-				name: $name.val(),
-				drink:$drink.val()
+				"name": $name.val(),
+				"drink":$drink.val()
 			}
 
 			$.ajax({
