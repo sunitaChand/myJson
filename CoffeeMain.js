@@ -32,8 +32,8 @@ $(function() {
 
 			$.ajax({
  				type :'post',
- 				url: 'https://api.jsonbin.io/v3/b/6328b6555c146d63caa10824',
- 				data: order,
+ 				url: 'orders.json',
+ 				data: JSON.parse(newOrder),
  				success: function(newOrder){
  					$orders.append('<li> name: '+ newOrder.name +', drink : '+ newOrder.drink + '</li>' );
  				},
