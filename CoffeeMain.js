@@ -4,7 +4,7 @@ $(function() {
 	var $orders = $('#orders');
 	var $name= $('#name');
 	var $drink= $('#drink');
-	var htmkString='';
+	var htmlString='';
 	$.ajax({
 				url: 'orders.json',
 				type: 'GET',
@@ -13,7 +13,7 @@ $(function() {
 				{
 					alert('hi');
 					console.log(orders);
-					console.log(orders[i]);
+					//console.log(orders[i]);
 					$.each(orders, function(i,order){
 					 $orders.append('<li>name : '+ order.name + ', drink: '+ order.drink + '</li>');
 					});
