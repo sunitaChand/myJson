@@ -5,7 +5,8 @@
 	var $name= $('#name');
 	var $drink= $('#drink');
 	var htmlString='';
-	$.ajax({
+	
+           $.ajax({
 				url: 'https://api.jsonbin.io/v3/b/6328b6555c146d63caa10824',
 				type: 'GET',
 				dataType:'json',
