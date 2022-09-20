@@ -28,17 +28,16 @@
        		complete: function(){
 
               console.log('complete') ;
-       		},
-
-       	$("p").append(
+       		}
+       	});
+       });
+	     	$("p").append(
        		$("input").map(function(){
        			return $(this).val();
        		}).get().join(",")
 
        		);
 
-       	});
-       })
 
 
 
