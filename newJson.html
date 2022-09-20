@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+   <div class ="container"></div>
+   <br><br>
+   <button> Click me </button>
+   <br>
+   <p></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    	
+       $("button").click(function(){
+
+       	$.ajax({
+       		url:'https://api.jsonbin.io/v3/b/6329bc69a1610e638631d3b5',
+       		success: function(result){
+                 console.log("complete with success and data ", result)
+       		},
+       		error: function(){
+       			console.log("error processing data");
+       		},
+       		complete: function(){
+
+              console.log('complete') ;
+       		},
+
+       	$("p").append(
+       		$("input").map(function(){
+       			return $(this).val();
+       		}).get().join(",")
+
+       		);
+
+       	});
+       })
+
+
+
+    </script>
+</body>
+</html>
