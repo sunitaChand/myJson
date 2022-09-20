@@ -6,7 +6,7 @@ $(function() {
 	var $drink= $('#drink');
 	var htmlString='';
 	$.ajax({
-				url: 'orders.json',
+				url: 'https://api.jsonbin.io/v3/b/6328b6555c146d63caa10824',
 				type: 'GET',
 				dataType:'json',
 				complete:function(orders)
@@ -33,7 +33,7 @@ $(function() {
                         alert(newOrder.name + "    "+ newOrder.drink);
 			$.ajax({
  				type :'post',
- 				url: 'orders.json',
+ 				url: 'https://api.jsonbin.io/v3/b/6328b6555c146d63caa10824',
  				data: newOrder,
  				success: function(newOrder){
  					$orders.append('<li> name: '+ newOrder.name +', drink : '+ newOrder.drink + '</li>' );
