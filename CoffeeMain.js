@@ -13,10 +13,11 @@ $(function() {
 				{
 					alert('hi');
 					console.log(orders);
-					$.each(orders, function(i,orders){
-						console.log(orders[i]);
+					console.log(orders[i]);
+					//$.each(orders, function(i,orders){
+						
 				//$orders.append('<li>name : '+ orders[i].name + ', drink: '+ orders[i].drink + '</li>');
-					});
+					//});
 				},
 
 		error: function(){
