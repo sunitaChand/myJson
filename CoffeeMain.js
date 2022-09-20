@@ -14,10 +14,9 @@ $(function() {
 					alert('hi');
 					console.log(orders);
 					console.log(orders[i]);
-					//$.each(orders, function(i,orders){
-						
-				//$orders.append('<li>name : '+ orders[i].name + ', drink: '+ orders[i].drink + '</li>');
-					//});
+					$.each(orders, function(i,order){
+					 $orders.append('<li>name : '+ order.name + ', drink: '+ order.drink + '</li>');
+					});
 				},
 
 		error: function(){
