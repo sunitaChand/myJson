@@ -1,6 +1,6 @@
 
 
-$(function() {
+
 	var $orders = $('#orders');
 	var $name= $('#name');
 	var $drink= $('#drink');
@@ -51,4 +51,4 @@ $(function() {
 
 	});
 
-});
+
