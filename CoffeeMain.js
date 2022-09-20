@@ -34,7 +34,7 @@ $(function() {
 			$.ajax({
  				type :'post',
  				url: 'orders.json',
- 			.	data: JSON.parse(newOrder),
+ 				data: JSON.parse(newOrder),
  				success: function(newOrder){
  					$orders.append('<li> name: '+ newOrder.name +', drink : '+ newOrder.drink + '</li>' );
  				},
