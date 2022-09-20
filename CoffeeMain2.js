@@ -1,6 +1,6 @@
 $("#displayOrder").click(function(){
     $.ajax({
-				url:'/blob/master/students.json',
+				url:'students.json',
 				type: "GET",
 				dataType:'json',
 				timeout:2500,
