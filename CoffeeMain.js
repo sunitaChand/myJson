@@ -14,7 +14,7 @@ $(function() {
 					alert('hi');
 					console.log(orders);
 					$.each(orders, function(i,orders){
-						consol.log(orders[i];
+						consol.log(orders[i]);
 				//$orders.append('<li>name : '+ orders[i].name + ', drink: '+ orders[i].drink + '</li>');
 					});
 				},
@@ -26,8 +26,8 @@ $(function() {
 
 	$('#add-order').on('click', function(){
 			var newOrder={
-				"name": $name.val(),
-				"drink":$drink.val()
+				"name": $name.val,
+				"drink":$drink.val
 			}
 
 			$.ajax({
