@@ -24,16 +24,17 @@ $(function() {
 		}
 	});
 
-	$('#add-order').on('click', function(){
+	$('#add-order').on('click', function(e){
+		       e.preventDefault();
 			var newOrder={
 				"name": $name.val,
 				"drink":$drink.val
 			}
-
+                        alert(newOrder.name + "    "+ newOrder.drink);
 			$.ajax({
  				type :'post',
  				url: 'orders.json',
- 				data: JSON.parse(newOrder),
+ 			.	data: JSON.parse(newOrder),
  				success: function(newOrder){
  					$orders.append('<li> name: '+ newOrder.name +', drink : '+ newOrder.drink + '</li>' );
  				},
